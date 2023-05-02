@@ -14,7 +14,8 @@ header {
   background: url(../img/header-backgroud.jpg);
   display: flex;
   flex-flow: column wrap;
-  padding: 20px;
+  padding: 30px;
+  margin: 0;
 }
 
 .box-title {
@@ -31,8 +32,78 @@ header {
 }
 
 .cta-container {
-  
   display: flex;
   flex-flow: column wrap;
   align-items: center;
 }
+
+.cta-dark {
+  background-color: #7DB96F;
+  border-radius: 15px;
+  padding: 10px 20px;
+  margin: 10px;
+  color: #fff;
+}
+
+.cta-light {
+  background-color: #fff;
+  border-radius: 15px;
+  padding: 10px 20px;
+  margin: 10px;
+  color: #7DB96F;
+}
+
+.section-intro {
+  background: #fff;
+  margin: 0;
+  padding: 75px;
+  color: #000;
+  text-align: center;
+}
+
+.bandeau-fruit {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  padding: 15px 0;
+
+}
+
+.bandeau-fruit img {
+  width: 30px;
+}
+
+.section-produit {
+  background-color: #7DB96F;
+  padding: 30px;
+}
+
+.produit {
+  border-radius: 15px;
+  padding: 15px 30px;
+  margin: 40px 0;
+  display: flex;
+  flex-flow: column wrap;
+}
+
+.jus-banane {
+  background-color: #FCF7D6;
+}
+
+.sirop-kiwi {
+  background-color: #D0F1AE;
+}
+
+.glace-cafe {
+  background-color: #CDC4B0;
+}
+
+.delice-fraise {
+  background-color: #E2A2B1;
+}
+
+.produit img {
+  width: 80px;
+  align-self: flex-end;
+}
+
