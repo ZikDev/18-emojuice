@@ -2,9 +2,37 @@ body {
   max-width: 380px;
   margin: auto;
   background: #ddd;
+  border-top: 5px solid #7DB96F;
 }
 
 img {
   display: block;
   max-width: 100%;
+}
+
+header {
+  background: url(../img/header-backgroud.jpg);
+  display: flex;
+  flex-flow: column wrap;
+  padding: 20px;
+}
+
+.box-title {
+  background: #fff;
+  opacity: 0.9;
+  padding: 20px 50px;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+}
+
+.box-title img {
+  margin-bottom: 20px;
+}
+
+.cta-container {
+  
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
 }
