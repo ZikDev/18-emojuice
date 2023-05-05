@@ -12,23 +12,30 @@ img {
 
 header {
   background: url(../img/header-backgroud.jpg);
-  display: flex;
-  flex-flow: column wrap;
+  text-align: center;
+  background-size: cover;
   padding: 30px;
   margin: 0;
 }
 
 .box-title {
   background: #fff;
+  color: #7DB96F;
   opacity: 0.9;
-  padding: 20px 50px;
+  padding: 15px 50px;
+  margin-bottom: 30px;
   display: flex;
   flex-flow: column wrap;
   justify-content: center;
 }
 
 .box-title img {
-  margin-bottom: 20px;
+  margin-bottom: 15px;
+}
+
+.slogan {
+  font-family: 'Quattrocento', serif;
+  font-size: 20px;
 }
 
 .cta-container {
@@ -37,28 +44,40 @@ header {
   align-items: center;
 }
 
-.cta-dark {
-  background-color: #7DB96F;
+.cta {
+  text-decoration: none;
+  font-family: 'Maven Pro', sans-serif;
+  font-size: 19px;
   border-radius: 15px;
   padding: 10px 20px;
   margin: 10px;
+}
+
+.cta-dark {
+  background-color: #7DB96F;
   color: #fff;
 }
 
 .cta-light {
   background-color: #fff;
-  border-radius: 15px;
-  padding: 10px 20px;
-  margin: 10px;
   color: #7DB96F;
 }
 
 .section-intro {
   background: #fff;
+  font-family: 'Quattrocento', serif;
   margin: 0;
   padding: 75px;
   color: #000;
   text-align: center;
+}
+
+h2 {
+  font-size: 24px;
+  font-family: 'Maven Pro', sans-serif;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 28px;
 }
 
 .bandeau-fruit {
@@ -106,4 +125,18 @@ header {
   width: 80px;
   align-self: flex-end;
 }
+
+.section-contact {
+  background-color: #fff;
+}
+
+footer {
+  background-color: #fff;
+  padding: 75px;
+}
+
+
+
+
+
 
