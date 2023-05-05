@@ -10,6 +10,14 @@ img {
   max-width: 100%;
 }
 
+h2 {
+  font-size: 24px;
+  font-family: 'Maven Pro', sans-serif;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 28px;
+}
+
 header {
   background: url(../img/header-backgroud.jpg);
   text-align: center;
@@ -72,18 +80,9 @@ header {
   text-align: center;
 }
 
-h2 {
-  font-size: 24px;
-  font-family: 'Maven Pro', sans-serif;
-  text-align: center;
-  margin-top: 0;
-  margin-bottom: 28px;
-}
-
 .section-intro strong {
   font-weight: 700;
 }
-
 
 .bandeau-fruit {
   display: flex;
@@ -106,14 +105,6 @@ h2 {
   color: #fff;
 }
 
-.produit-lien {
-  display: flex;
-  flex-flow: row nowrap;
-  justify-content: space-between;
-  margin-top: 30px;
-  align-items: flex-end;
-}
-
 .produit {
   color: #000;
   border-radius: 15px;
@@ -121,6 +112,14 @@ h2 {
   margin: 40px 0;
   display: flex;
   flex-flow: column wrap;
+}
+
+.produit-lien {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  margin-top: 30px;
+  align-items: flex-end;
 }
 
 .produit h3 {
