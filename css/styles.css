@@ -1,7 +1,7 @@
 body {
   max-width: 380px;
   margin: auto;
-  background: #ddd;
+  background: #d0b36d;
   border-top: 5px solid #7DB96F;
 }
 
@@ -109,7 +109,7 @@ header {
   color: #000;
   border-radius: 15px;
   padding: 30px;
-  margin: 40px 0;
+  margin: 50px 0;
   display: flex;
   flex-flow: column wrap;
 }
@@ -165,7 +165,7 @@ header {
 
 .section-contact {
   background-color: #fff;
-  padding: 45px;
+  padding: 45px 45px 20px 45px;
 }
 
 .section-contact h2 {
@@ -175,6 +175,7 @@ header {
 footer {
   background-color: #fff;
   padding: 30px 75px;
+  margin-top: 0;
 }
 
 footer p {
